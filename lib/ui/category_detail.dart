@@ -1,6 +1,5 @@
 import 'package:examen_final/models/category_dish.dart';
 import 'package:examen_final/models/dish.dart';
-import 'package:examen_final/ui/category_view.dart';
 import 'package:examen_final/utils/httphelper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,10 +7,7 @@ import 'package:flutter/material.dart';
 class CategoryDetail extends StatefulWidget {
   final Category_dish category;
   CategoryDetail(this.category);
-  /*const CategoryDetail({Key? key, }) : super(key: key);
 
-  @override
-  State<CategoryDetail> createState() => _CategoryDetailState();*/
   @override
   _CategoryDetailState createState() => _CategoryDetailState(category);
 }

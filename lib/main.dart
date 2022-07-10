@@ -1,6 +1,4 @@
-import 'package:examen_final/models/category_dish.dart';
 import 'package:examen_final/ui/category_view.dart';
-import 'package:examen_final/utils/httphelper.dart';
 import 'package:flutter/material.dart';
 
 void main() {
